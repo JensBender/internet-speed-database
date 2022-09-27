@@ -5,13 +5,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
-import your_secrets
+import my_secrets
 
 
 # Create a Google-forms-bot class for data entry | selenium
 class GoogleFormsBot:
     def __init__(self):
-        self.service = Service(executable_path=your_secrets.CHROME_DRIVER_PATH)
+        self.service = Service(executable_path=my_secrets.CHROME_DRIVER_PATH)
         self.driver = webdriver.Chrome(service=self.service)
 
     def fill_out_form(self, download_speed, upload_speed, internet_provider):
