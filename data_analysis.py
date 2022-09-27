@@ -1,12 +1,12 @@
 # Import modules
 import requests
 import pandas as pd
-import my_secrets
+import your_secrets
 
 # Get data
 # Get the Google Sheet data (using Sheety API)
-get_sheet_response = requests.get(url=my_secrets.SHEETY_PROJECT_ENDPOINT,
-                                  headers={"Authorization": f"Bearer {my_secrets.SHEETY_BEARER_TOKEN}"})
+get_sheet_response = requests.get(url=your_secrets.SHEETY_PROJECT_ENDPOINT,
+                                  headers={"Authorization": f"Bearer {your_secrets.SHEETY_BEARER_TOKEN}"})
 # Save the data as json
 google_sheet_json = get_sheet_response.json()
 # Convert json to pandas dataframe

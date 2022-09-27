@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import my_secrets
+import your_secrets
 
 # Global constants
 SPEEDTEST_URL = "https://fast.com/"
@@ -14,7 +14,7 @@ SPEEDTEST_URL = "https://fast.com/"
 class SpeedtestBot:
     def __init__(self):
         # Create selenium chrome driver
-        self.service = Service(executable_path=my_secrets.CHROME_DRIVER_PATH)
+        self.service = Service(executable_path=your_secrets.CHROME_DRIVER_PATH)
         self.driver = webdriver.Chrome(service=self.service)
         # Create parameters for download speed, upload speed and internet provider
         self.down = 0
