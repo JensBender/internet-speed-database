@@ -27,6 +27,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#usage">Usage</a>
+    </li>
 </ol>
 
 <!-- ABOUT THE PROJECT -->
@@ -43,6 +46,8 @@ The Internet Speed Database project answers this question by doing the following
 * [![Selenium][Selenium-badge]][Selenium-url]
 * [![Pandas][Pandas-badge]][Pandas-url]
 * [![PyCharm][PyCharm-badge]][PyCharm-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -106,6 +111,14 @@ For all questions, select "Short answer" as the response format. <br />
     ```
     SHEETY_BEARER_TOKEN = "YOUR_BEARER_TOKEN"
     ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE -->
+## Usage
+Run `main.py` for an automated speedtest and data entry.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS -->
 [Pandas-badge]: https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white
