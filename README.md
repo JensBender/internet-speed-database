@@ -80,6 +80,14 @@ This is a list of things you need to use this program.
       Go to "Responses" and click on "Create Spreadsheet".<br />
       <a href="https://github.com/JensBender/internet-speed-database"><img src="images/create_spreadsheet.png" width=80%></a>
     </li>
+    <li>
+      Create a new spreadsheet with the same name.<br />
+      <a href="https://github.com/JensBender/internet-speed-database"><img src="images/create_spreadsheet_2.png" width=80%></a>
+    </li>
+    <li>
+      This is how your Google Sheet should look like.<br />
+      <a href="https://github.com/JensBender/internet-speed-database"><img src="images/google_sheet.png" width=80%></a>
+    </li>
 </ol>
 
 <!-- MARKDOWN LINKS -->
