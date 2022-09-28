@@ -69,11 +69,18 @@ This is a list of things you need to use this program.
 
 ### Installation
 
-1. Create a Google Form named "Internet Speed Database".
-2. Create three questions with short answer responses in precisely this order: (1) Download speed, (2) Upload speed, (3) Internet provider.
-<br /><a href="https://github.com/JensBender/internet-speed-database"><img src="images/google_form.png" width=80%></a>
-3. Go to "Responses" and click on "Create Spreadsheet".
-<br /><a href="https://github.com/JensBender/internet-speed-database"><img src="images/create_spreadsheet.png" width=80%></a>
+<ol>
+    <li>Create a Google Form "Internet Speed Database".</li>
+    <li>
+      Create three questions for (1) Download speed, (2) Upload speed, and (3) Internet provider in precisely this order. <br /> 
+      For all questions, select "Short answer" as the response format.<br />
+      <a href="https://github.com/JensBender/internet-speed-database"><img src="images/google_form.png" width=80%></a>
+    </li>
+    <li>
+      Go to "Responses" and click on "Create Spreadsheet".<br />
+      <a href="https://github.com/JensBender/internet-speed-database"><img src="images/create_spreadsheet.png" width=80%></a>
+    </li>
+</ol>
 
 <!-- MARKDOWN LINKS -->
 [Pandas-badge]: https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white
