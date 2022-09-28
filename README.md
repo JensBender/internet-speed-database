@@ -69,34 +69,40 @@ This is a list of things you need to use this program.
 
 ### Installation
 
-1. Create a Google Form "Internet Speed Database".
-2. Create three questions for (1) Download speed, (2) Upload speed, and (3) Internet provider in precisely this order. <br /> 
+1. Install the following packages: Selenium, Pandas, and Requests.
+2. Go to <a href="https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/">selenium.dev</a> and download the WebDriver for Chrome.
+3. Install Chrome WebDriver and paste the path in `your_secrets.py`.
+     ```
+     CHROME_DRIVER_PATH = "YOUR_PATH_HERE"
+     ```
+4. Create a Google Form named "Internet Speed Database".
+5. Create three questions for (1) Download speed, (2) Upload speed, and (3) Internet provider in precisely this order. <br /> 
 For all questions, select "Short answer" as the response format. <br />
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/google_form.png" width=70%></a>
-3. Copy the url of your Google Form.
+6. Copy the url of your Google Form. <br />
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/google_form_url.png" width=70%></a>
-4. Paste it in `your_secrets.py`.
+7. Paste it in `your_secrets.py`.
      ```
      GOOGLE_FORM_URL = "URL_TO_YOUR_GOOGLE_FORM"
      ```
-5. Go to your Google From "Responses" and click on "Create Spreadsheet". <br />
+8. Go to your Google From "Responses" and click on "Create Spreadsheet". <br />
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/create_spreadsheet.png" width=70%></a>
-6. Create a new spreadsheet named "Internet Speed Database". <br />
+9. Create a new spreadsheet named "Internet Speed Database". <br />
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/create_spreadsheet_2.png" width=70%></a>
-7. This is how your Google Sheet should look like. <br />
+10. This is how your Google Sheet should look like. <br />
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/google_sheet.png" width=70%></a>
-8. To get the data from the Google Sheet, use Sheety API. Go to <a href="https://sheety.co/">sheety.co</a> and click "Connect Google Sheet". Sign in with your Google account. <br />
-9. Click on "New Project" → "From Google Sheet". Next, paste the url to your Google Sheet. <br />
+11. To get the data from the Google Sheet, use Sheety API. Go to <a href="https://sheety.co/">sheety.co</a> and click "Connect Google Sheet". Sign in with your Google account. <br />
+12. Click on "New Project" → "From Google Sheet". Next, insert the url of your Google Sheet. <br />
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/sheety_paste_url.png" width=70%></a>
-10. Copy the API endpoint of your Sheety project. <br />
+13. Copy the API endpoint of your Sheety project. <br />
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/sheety_project_endpoint.png" width=70%></a>
-11. Paste it in `your_secrets.py`.
+14. Paste it in `your_secrets.py`.
      ```
      SHEETY_PROJECT_ENDPOINT = "URL_TO_YOUR_SHEETY_PROJECT"
      ```
-12. Go to your Sheety project "Authentication" and create a Bearer Token. Save the changes.
+15. Go to your Sheety project "Authentication" and create a Bearer Token. Save the changes.
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/sheety_bearer_token.png" width=70%></a>
-13. Copy & paste your Bearer Token in `your_secrets.py`.
+16. Copy & paste your Bearer Token in `your_secrets.py`.
     ```
     SHEETY_BEARER_TOKEN = "YOUR_BEARER_TOKEN"
     ```
