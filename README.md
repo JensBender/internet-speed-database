@@ -8,7 +8,7 @@
   </a>
   <p>
     <br />
-    Collect, store and analyze data on your internet speed.
+    Do you get what you pay for when it comes to your internet speed? If not, maybe it's time to take action.
     <br />
   </p>
 </div> 
@@ -37,14 +37,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Do you get what you pay for when it comes to your internet speed? 
-
-The Internet Speed Database project answers this question by doing the following:
+The Internet Speed Database project helps you to find out if you really get the internet speed that you pay for. If you don't, it also helps you to do something about it. 
+It accomplishes this by doing the following:
 + **Data collection**: Perform automated internet speedtests and collect data on your download speed, upload speed, and internet provider 
 + **Data entry**: Perform automated data entry by submitting the collected data to a Google Form 
 + **Data storage**: Create an internet speed database in the form of a simple Google Sheet and store it in your Google Drive
 + **Data analysis**: Analyze your average download speed and upload speed across multiple speedtests and compare it with the internet speed promised by your internet provider
-+ **Customer complaint**: If your internet speed is consistently lower than promised by your internet provider, file an automated customer complaint on Twitter
++ **Customer complaint**: If your internet speed is consistently lower than promised by your provider, file an automated customer complaint on Twitter
 
 ### Built With
 * [![Selenium][Selenium-badge]][Selenium-url]
@@ -76,7 +75,7 @@ Follow these steps to get the program running on your local machine.
 
 This is a list of things you need to use this program.
 <ul>
-  <li>Python libraries</li>
+  <li>Python packages</li>
   <ul>
     <li>Selenium</li>
     <li>Pandas</li>
