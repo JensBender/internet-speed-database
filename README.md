@@ -120,6 +120,7 @@ For all questions, select "Short answer" as the response format. <br />
 <!-- USAGE -->
 ## Usage
 Run `main.py` for an automated speedtest and data entry.
+![speedtest_demo](images/speedtest_demo.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
