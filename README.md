@@ -57,12 +57,8 @@ The Internet Speed Database project answers this question by doing the following
 Run `main.py` to perform an automated speedtest plus data entry.
 ![speedtest_demo](images/speedtest_demo.gif)
 
----
-
 Run `data_analysis.py` to get your average download speed and upload speed by internet provider.
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/data_analysis.png" width=60%></a>
-
----
 
 Run `twitter.py` to tweet a complaint. Specify the internet provider like this: `twitter_bot.tweet_complaint(internet_provider="True Internet")`.
 
