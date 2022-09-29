@@ -27,7 +27,7 @@
       <a href="#usage">Usage</a>
     </li>
     <ul>
-        <li><a href="#speedtest-data-entry">Speedtest and Data Entry</a></li>
+        <li><a href="#speedtest-and-data-entry">Speedtest and Data Entry</a></li>
         <li><a href="#data-analysis">Data Analysis</a></li>
         <li><a href="#tweet-customer-complaint">Tweet Customer Complaint</a></li>
     </ul>
