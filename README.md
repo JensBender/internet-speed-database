@@ -60,6 +60,9 @@ Run `main.py` for an automated speedtest and data entry.
 Run `data_analysis.py` to get your average download speed and upload speed by internet provider.
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/data_analysis.png" width=60%></a>
 
+Run `twitter.py` to tweet a complaint. Specify the internet provider like this: `twitter_bot.tweet_complaint(internet_provider="True Internet")`.
+<a href="https://github.com/JensBender/internet-speed-database"><img src="images/tweet_complaint.png" width=60%></a>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
