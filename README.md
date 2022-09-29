@@ -24,14 +24,14 @@
       </ul>
     </li>
     <li>
+      <a href="#usage">Usage</a>
+    </li>
+    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
-    </li>
-    <li>
-      <a href="#usage">Usage</a>
     </li>
 </ol>
 
@@ -49,6 +49,13 @@ The Internet Speed Database project answers this question by doing the following
 * [![Selenium][Selenium-badge]][Selenium-url]
 * [![Pandas][Pandas-badge]][Pandas-url]
 * [![PyCharm][PyCharm-badge]][PyCharm-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE -->
+## Usage
+Run `main.py` for an automated speedtest and data entry.
+![speedtest_demo](images/speedtest_demo.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,13 +121,6 @@ For all questions, select "Short answer" as the response format. <br />
     ```
     SHEETY_BEARER_TOKEN = "YOUR_BEARER_TOKEN"
     ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE -->
-## Usage
-Run `main.py` for an automated speedtest and data entry.
-![speedtest_demo](images/speedtest_demo.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
