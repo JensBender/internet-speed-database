@@ -57,6 +57,9 @@ The Internet Speed Database project answers this question by doing the following
 Run `main.py` for an automated speedtest and data entry.
 ![speedtest_demo](images/speedtest_demo.gif)
 
+Run `data_analysis.py` to get your average download speed and upload speed by internet provider.
+<a href="https://github.com/JensBender/internet-speed-database"><img src="images/data_analysis.png" width=60%></a>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
