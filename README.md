@@ -44,6 +44,7 @@ The Internet Speed Database project answers this question by doing the following
 + **Data entry**: Perform automated data entry by submitting the collected data to a Google Form 
 + **Data storage**: Create an internet speed database in the form of a simple Google Sheet and store it in your Google Drive
 + **Data analysis**: Analyze your average download speed and upload speed across multiple speedtests and compare it with the internet speed promised by your internet provider
++ **Customer complaint**: If your internet speed is consistently lower than promised by your internet provider, file an automated customer complaint on Twitter
 
 ### Built With
 * [![Selenium][Selenium-badge]][Selenium-url]
