@@ -26,6 +26,11 @@
     <li>
       <a href="#usage">Usage</a>
     </li>
+    <ul>
+        <li><a href="#speedtest-data-entry">Speedtest and Data Entry</a></li>
+        <li><a href="#data-analysis">Data Analysis</a></li>
+        <li><a href="#tweet-customer-complaint">Tweet Customer Complaint</a></li>
+    </ul>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -54,12 +59,15 @@ It accomplishes this by doing the following:
 
 <!-- USAGE -->
 ## Usage
+### Speedtest and Data Entry
 Run `main.py` to perform an automated speedtest plus data entry.
 ![speedtest_demo](images/speedtest_demo.gif)
 
+### Data Analysis
 Run `data_analysis.py` to get your average download speed and upload speed by internet provider.
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/data_analysis.png" width=60%></a>
 
+### Tweet Customer Complaint
 Run `twitter.py` to tweet a complaint. Specify the internet provider like this: `twitter_bot.tweet_complaint(internet_provider="True Internet")`.
 
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/tweet_complaint.png"></a>
