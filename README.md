@@ -82,12 +82,13 @@ This is a list of things you need to use this program.
     <li>Pandas</li>
     <li>Requests</li>
   </ul>
-  <li>Google Account</li>
+  <li>Google account</li>
   <ul>
     <li>Google Forms</li>
     <li>Google Sheets</li>
   </ul>
   <li>Sheety API</li>
+  <li>Twitter account</li>
 </ul>
 
 ### Installation
@@ -128,6 +129,17 @@ For all questions, select "Short answer" as the response format. <br />
 16. Copy & paste your Bearer Token in `your_secrets.py`.
     ```
     SHEETY_BEARER_TOKEN = "YOUR_BEARER_TOKEN"
+    ```
+17. Enter your Twitter login information in `your_secrets.py`.
+    ```
+    TWITTER_EMAIL = "YOUR_TWITTER_EMAIL"
+    TWITTER_USERNAME = "YOUR_TWITTER_USERNAME"
+    TWITTER_PASSWORD = "YOUR_TWITTER_PASSWORD"
+    ```
+18. Enter your internet provider's promised download and upload speed in `your_secrets.py`.
+    ```
+    PROMISED_DOWNLOAD = 10  # substitute the download speed promised by your internet provider
+    PROMISED_UPLOAD = 10  # substitute the upload speed promised by your internet provider
     ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
