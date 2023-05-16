@@ -116,7 +116,7 @@ For all questions, select "Short answer" as the response format. <br />
      ```
      GOOGLE_FORM_URL = "URL_TO_YOUR_GOOGLE_FORM"
      ```
-8. Go to your Google From "Responses" and click on "Create Spreadsheet". <br />
+8. Go to your Google Form "Responses" and click on "Create Spreadsheet". <br />
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/create_spreadsheet.png" width=70%></a>
 9. Create a new spreadsheet named "Internet Speed Database". <br />
 <a href="https://github.com/JensBender/internet-speed-database"><img src="images/create_spreadsheet_2.png" width=70%></a>
