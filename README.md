@@ -2,16 +2,11 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-<div align="center">
-  <a href="https://github.com/JensBender/internet-speed-database">
-    <img src="images/logo.png" width=80%>
-  </a>
-  <p>
-    <br />
-    Do you get what you pay for when it comes to your internet speed? If not, maybe it's time to take action.
-    <br />
-  </p>
-</div> 
+<p align=center><img src="images/logo.png" width=80%></p>
+
+<!-- SHORT SUMMARY  -->
+Do you get what you pay for when it comes to your internet speed? If not, maybe it's time to take action.
+
 
 ---
 
